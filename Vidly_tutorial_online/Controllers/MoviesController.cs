@@ -14,6 +14,7 @@ namespace Vidly_tutorial_online.Controllers
         public ActionResult Random()
         {
             var movie = new Movie() { Name = "Shrek" };
+            string a = "xd";
 
             ViewData["Movie"] = movie;
             return View();
